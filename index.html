@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <title>OceanNFT</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header__top">
         <div class="container">
             <div class="header__row">
                 <div class="header__logo">
@@ -29,22 +31,24 @@
                             <div class="hamburger">
                                 <span class="hamburger__line"></span>
                             </div>
-                            <div class="menu">
-                                <li>
-                                    <a href="#" class="menu__link">Market</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="menu__link">Features</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="menu__link">Community</a>
-                                </li>
+                            <div class="menu__row">
+                                <div class="menu">
+                                    <li>
+                                        <a href="#" class="menu__link">Market</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="menu__link">Features</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="menu__link">Community</a>
+                                    </li>
+                                </div> 
+                                <div class="navbar__icon">
+                                    <a href="#"><img src="img/header_basket.svg" alt=""></a>
+                                    <a href="#"><img src="img/header_login.svg" alt=""></a>
+                                </div>
                             </div>
                         </ul>
-                        <div class="navbar__icon">
-                            <a href="#"><img src="img/header_basket.svg" alt=""></a>
-                            <a href="#"><img src="img/header_login.svg" alt=""></a>
-                        </div>
                     </nav>
                 </div>
             </div>
@@ -96,7 +100,7 @@
                             </div>
                             <h5>Reserve price</h5>
                             <div class="profile__efir">
-                                <img src="img/header_logo.png" alt="">
+                                <img src="img/ethereum-icon.svg" alt="">
                                 <p>ETH 9.31</p>
                                 <span>($29,8846)</span>
                             </div>
@@ -135,7 +139,600 @@
         </div>
     </div>
 
+    <div class="slider">
+        <div class="container">
+            <div class="slider__title">
+                <h3>Top NFT’s now</h3>
+                <a href="#">
+                    <h3>View all</h3>
+                    <div class="slider__arrow btn__right"></div>
+                </a>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="img/swiper1.png" alt="">
+                    <div class="slider__bottom">
+                        <div class="profile__left2">
+                            <p>3D Abstract Hand</p>
+                            <div class="profile__look2">
+                                <img src="img/right-profile.png" alt="">
+                                <span>@jhonartist</span>
+                                <img id="img2" src="img/right-hal.png" alt="">
+                            </div>
+                            <h5>Reserve price</h5>
+                            <div class="profile__efir2">
+                                <img src="img/ethereum-icon.svg" alt="">
+                                <p>ETH 9.31</p>
+                                <span>($29,8846)</span>
+                            </div>
+                        </div>
+                        <div class="profile__right2">
+                            <h5>Auction Ends in</h5>
+                            <div class="right__timer">
+                                <div class="timer__number2">
+                                    <span id="h2"></span>
+                                    <p>Hours</p>
+                                </div>
+                                <div class="timer__number2">
+                                    <span id="m2"></span>
+                                    <p>Mins</p>
+                                </div>
+                                <div class="timer__number2">
+                                    <span id="s2"></span>
+                                    <p>Secs</p>
+                                </div>
+                            </div>
+                            <div class="profile__btn">
+                                <a class="btn__link2" href="#">Place Bid
+                                    <div class="profile__arrow btn__right2"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/swiper2.png" alt="">
+                    <div class="slider__bottom">
+                        <div class="profile__left2">
+                            <p>Apollo Eth #1289 NFT</p>
+                            <div class="profile__look2">
+                                <img src="img/swiper_profile1.png" alt="">
+                                <span>@jhonartist</span>
+                                <img id="img2" src="img/right-hal.png" alt="">
+                            </div>
+                            <h5>Reserve price</h5>
+                            <div class="profile__efir2">
+                                <img src="img/ethereum-icon.svg" alt="">
+                                <p>ETH 9.31</p>
+                                <span>($29,8846)</span>
+                            </div>
+                        </div>
+                        <div class="profile__right2">
+                            <h5>Auction Ends in</h5>
+                            <div class="right__timer">
+                                <div class="timer__number2">
+                                    <span id="h3"></span>
+                                    <p>Hours</p>
+                                </div>
+                                <div class="timer__number2">
+                                    <span id="m3"></span>
+                                    <p>Mins</p>
+                                </div>
+                                <div class="timer__number2">
+                                    <span id="s3"></span>
+                                    <p>Secs</p>
+                                </div>
+                            </div>
+                            <div class="profile__btn">
+                                <a class="btn__link2" href="#">Place Bid
+                                    <div class="profile__arrow btn__right2"></div>
+                                </a>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/swiper3.png" alt="">
+                    <div class="slider__bottom">
+                        <div class="profile__left2">
+                            <p>Satisfying 3D Art</p>
+                            <div class="profile__look2">
+                                <img src="img/swiper_profile3.png" alt="">
+                                <span>@jhonartist</span>
+                                <img id="img2" src="img/right-hal.png" alt="">
+                            </div>
+                            <h5>Reserve price</h5>
+                            <div class="profile__efir2">
+                                <img src="img/ethereum-icon.svg" alt="">
+                                <p>ETH 9.31</p>
+                                <span>($29,8846)</span>
+                            </div>
+                        </div>
+                        <div class="profile__right2">
+                            <h5>Auction Ends in</h5>
+                            <div class="right__timer">
+                                <div class="timer__number2">
+                                    <span id="h4"></span>
+                                    <p>Hours</p>
+                                </div>
+                                <div class="timer__number2">
+                                    <span id="m4"></span>
+                                    <p>Mins</p>
+                                </div>
+                                <div class="timer__number2">
+                                    <span id="s4"></span>
+                                    <p>Secs</p>
+                                </div>
+                            </div>
+                            <div class="profile__btn">
+                                <a class="btn__link2" href="#">Place Bid
+                                    <div class="profile__arrow btn__right2"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="slider__border">
+                <span class="span__top"></span>
+                Explore
+                    <div class="slider__arrow btn__slider"></div>
+                <span class="span__bottom"></span>
+            </div>
+        </div>
+    </div>
 
+    <div class="collection">
+        <div class="container">
+            <div class="collection__row">
+                <div class="collection__left">
+                    <div class="collection__title">
+                        <h3>Explore Collections</h3>
+                    </div>
+                    <div class="collection__link">
+                        <a href="#">Photography</a>
+                        <a href="#">Sports</a>
+                        <a href="#">Brands</a>
+                        <a href="#">Collectibles</a>
+                        <a href="#">Art</a>
+                        <a href="#">Utility</a>
+                        <a href="#">Brands</a>
+                        <a href="#">Collectibles</a>
+                    </div>
+                    <div class="collection__btn">
+                        <a href="#">
+                            <h4>View all</h4>
+                            <div class="slider__arrow btn__right"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="collection__right">
+                    <img src="img/collections-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="explore">
+        <div class="container">
+            <div class="slider__title">
+                <h3>Top NFT’s now</h3>
+                <a href="#">
+                    <h3>View all</h3>
+                    <div class="slider__arrow btn__right"></div>
+                </a>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide__row">
+                            <img id="colle__slider" src="img/colle-slider.png" alt="">  
+                            <div class="slide__bottom">
+                                <img id="coll__prof" src="img/coll-prof1.png" alt="">
+                                <h4>Jhones Nickey</h4>
+                                <div class="slide__nick">
+                                    <span>@jhonartist</span>
+                                    <img id="img2" src="img/right-hal.png" alt="">
+                                </div>
+                                <div class="slide__folow">
+                                    <div class="folow__row">
+                                        <span>125</span>
+                                        <p>Folowers</p>
+                                    </div>
+                                    <div class="folow__row">
+                                        <span>256</span>
+                                        <p>Following</p>
+                                    </div>
+                                    <div class="folow__row">
+                                        <span>129</span>
+                                        <p>Artworks</p>
+                                    </div>
+                                </div>
+                                <button>Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__row">
+                            <img id="colle__slider" src="img/colle-slider.png" alt="">                         
+                            <div class="slide__bottom">
+                                <img id="coll__prof" src="img/coll-prof2.png" alt="">
+                                <h4>Cody Fisher</h4>
+                                <div class="slide__nick">
+                                    <span>@codyfishe</span>
+                                    <img id="img2" src="img/right-hal.png" alt="">
+                                </div>
+                                <div class="slide__folow">
+                                    <div class="folow__row">
+                                        <span>356</span>
+                                        <p>Folowers</p>
+                                    </div>
+                                    <div class="folow__row">
+                                        <span>456</span>
+                                        <p>Following</p>
+                                    </div>
+                                    <div class="folow__row">
+                                        <span>89</span>
+                                        <p>Artworks</p>
+                                    </div>
+                                </div>
+                                <button>Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide__row">
+                            <img id="colle__slider" src="img/colle-slider.png" alt="">
+                            <div class="slide__bottom">
+                                <img id="coll__prof" src="img/coll-prof3.png" alt="">
+                                <h4>Jerome Bell</h4>
+                                <div class="slide__nick">
+                                    <span>@jeromebt</span>
+                                    <img id="img2" src="img/right-hal.png" alt="">
+                                </div>
+                                <div class="slide__folow">
+                                    <div class="folow__row">
+                                        <span>546</span>
+                                        <p>Folowers</p>
+                                    </div>
+                                    <div class="folow__row">
+                                        <span>789</span>
+                                        <p>Following</p>
+                                    </div>
+                                    <div class="folow__row">
+                                        <span>54</span>
+                                        <p>Artworks</p>
+                                    </div>
+                                </div>
+                                <button>Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="slider__border">
+                <span class="span__top"></span>
+                Explore
+                    <div class="slider__arrow btn__slider"></div>
+                <span class="span__bottom"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="seller">
+        <div class="container">
+            <div class="seller__title">
+                <div class="title__link">
+                    <h3>Top Sellers this</h3>
+                    <div class="a-active">
+                        <span>Month</span>
+                        <img class="img-vector" src="img/Vector.png" alt="">
+                    </div>
+                </div>
+                <p class="p-none">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim minim mollit.</p>
+            </div>
+            <div class="seller__row">
+                <div class="seller__profile">
+                    <div class="seller__number">1</div>
+                    <img src="img/seller1.png" alt="">
+                    <div class="seller__name">
+                        <h3>Eleanor Pena</h3>
+                        <div class="seller__efir">
+                            <img src="img/seller-efir.png" alt="">
+                            <h4>74875</h4>
+                        </div>
+                    </div>
+                    <div class="seller__green">
+                        <span>+468.48%</span>
+                    </div>
+                </div>
+                <div class="seller__profile">
+                    <div class="seller__number">2</div>
+                    <img src="img/seller2.png" alt="">
+                    <div class="seller__name">
+                        <h3>Savannah Nguyen</h3>
+                        <div class="seller__efir">
+                            <img src="img/seller-efir.png" alt="">
+                            <h4>18599</h4>
+                        </div>
+                    </div>
+                    <div class="seller__red"><span>+468.48%</span></div>
+                </div>
+                <div class="seller__profile">
+                    <div class="seller__number">3</div>
+                    <img src="img/seller3.png" alt="">
+                    <div class="seller__name">
+                        <h3>Arlene McCoy</h3>
+                        <div class="seller__efir">
+                            <img src="img/seller-efir.png" alt="">
+                            <h4>45904</h4>
+                        </div>
+                    </div>
+                    <div class="seller__green"><span>+468.48%</span></div>
+                </div>
+                <div class="seller__profile">
+                    <div class="seller__number">4</div>
+                    <img src="img/seller4.png" alt="">
+                    <div class="seller__name">
+                        <h3>Esther Howard</h3>
+                        <div class="seller__efir">
+                            <img src="img/seller-efir.png" alt="">
+                            <h4>16627</h4>
+                        </div>
+                    </div>
+                    <div class="seller__red"><span>+468.48%</span></div>
+                </div>
+                <div class="seller__profile">
+                    <div class="seller__number">5</div>
+                    <img src="img/seller5.png" alt="">
+                    <div class="seller__name">
+                        <h3>Robert Fox</h3>
+                        <div class="seller__efir">
+                            <img src="img/seller-efir.png" alt="">
+                            <h4>9631</h4>
+                        </div>
+                    </div>
+                    <div class="seller__green"><span>+468.48%</span></div>
+                </div>
+                <div class="seller__profile">
+                    <div class="seller__number">6</div>
+                    <img src="img/seller6.png" alt="">
+                    <div class="seller__name">
+                        <h3>Darlene Robertson</h3>
+                        <div class="seller__efir">
+                            <img src="img/seller-efir.png" alt="">
+                            <h4>70443</h4>
+                        </div>
+                    </div>
+                    <div class="seller__green"><span>+468.48%</span></div>
+                </div>
+                <div class="seller__profile">
+                    <div class="seller__number">7</div>
+                    <img src="img/seller7.png" alt="">
+                    <div class="seller__name">
+                        <h3>Jacob Jones</h3>
+                        <div class="seller__efir">
+                            <img src="img/seller-efir.png" alt="">
+                            <h4>13671</h4>
+                        </div>
+                    </div>
+                    <div class="seller__green"><span>+468.48%</span></div>
+                </div>
+                <div class="seller__profile">
+                    <div class="seller__number">8</div>
+                    <img src="img/seller8.png" alt="">
+                    <div class="seller__name">
+                        <h3>Jerome Bell</h3>
+                        <div class="seller__efir">
+                            <img src="img/seller-efir.png" alt="">
+                            <h4>39235</h4>
+                        </div>
+                    </div>
+                    <div class="seller__red"><span>+468.48%</span></div>
+                </div>
+                <div class="seller__profile">
+                    <div class="seller__number">9</div>
+                    <img src="img/seller9.png" alt="">
+                    <div class="seller__name">
+                        <h3>Wade Warren</h3>
+                        <div class="seller__efir">
+                            <img src="img/seller-efir.png" alt="">
+                            <h4>43359</h4>
+                        </div>
+                    </div>
+                    <div class="seller__red"><span>+468.48%</span></div>
+                </div>
+                <div class="seller__profile">
+                    <div class="seller__number">10</div>
+                    <img src="img/seller10.png" alt="">
+                    <div class="seller__name">
+                        <h3>Jane Cooper</h3>
+                        <div class="seller__efir">
+                            <img src="img/seller-efir.png" alt="">
+                            <h4>95554</h4>
+                        </div>
+                    </div>
+                    <div class="seller__red"><span>+468.48%</span></div>
+                </div>
+                <div class="seller__profile">
+                    <div class="seller__number">11</div>
+                    <img src="img/seller11.png" alt="">
+                    <div class="seller__name">
+                        <h3>Kristin Watson</h3>
+                        <div class="seller__efir">
+                            <img src="img/seller-efir.png" alt="">
+                            <h4>20796</h4>
+                        </div>
+                    </div>
+                    <div class="seller__green"><span>+468.48%</span></div>
+                </div>
+                <div class="seller__profile">
+                    <div class="seller__number">12</div>
+                    <img src="img/seller12.png" alt="">
+                    <div class="seller__name">
+                        <h3>Kathryn Murphy</h3>
+                        <div class="seller__efir">
+                            <img src="img/seller-efir.png" alt="">
+                            <h4>4339</h4>
+                        </div>
+                    </div>
+                    <div class="seller__red"><span>+468.48%</span></div>
+                </div>
+            </div>
+            <button>Explore all</button>
+            <div class="slider__border">
+                <span class="span__top"></span>
+                Explore
+                    <div class="slider__arrow btn__slider"></div>
+                <span class="span__bottom"></span>
+            </div>
+        </div> 
+    </div>
+
+    <div class="nftvideo">
+        <div class="nftvideo__row">
+            <div class="nftvideo__img"></div>
+            <div class="nftvideo__video">
+                <h2>What are NFT’s ?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum quis amet, faucibus lorem. Lectus amet odio quis sed adipiscing adipiscing magna non. Nullam turpis faucibus ridiculus suscipit. Et blandit suspendisse curabitur eu congue dui ut.</p>
+                <div class="a__watch">
+                    <a href="#" class="lear">Learn more</a>
+                    <a href="#" class="watch">
+                        <img src="img/nft-Path.png" alt="">
+                        Watch video
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscribe">
+        <div class="container">
+            <div class="subscribe__row">
+                <img src="img/subscribe-img.png" alt="">
+                <div class="subscribe__right">
+                    <h2>Subscribe to us</h2>
+                    <p>Specially developed to help restore a more youthful appearance with improved radiance and bounce.</p>
+                    <div class="mail">
+                        <input type="text" placeholder="Your work email address">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="oceannft">
+        <div class="container">
+            <div class="oceannft__line1"></div>
+            <div class="oceannft__row">
+                <div class="oceannft__block">
+                    <div class="block__title">
+                        <img src="img/header_logo.png" alt="">
+                        <h3>OceanNFT</h3>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc quam ac sed turpis volutpat. Cursus sed massa non nisi, placerat.
+                    </p>
+                    <div class="block__image">
+                        <a href="#">
+                            <img src="img/block-inst.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/block-img2.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/block-tvit.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/block-youtube.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="oceannft__link">
+                    <div class="link__block">
+                        <div class="line__title">
+                            <h3>Market place</h3>
+                            <img src="img/block-vector.png" alt="">
+                        </div>
+                        <a href="#">Overview</a>
+                        <a href="#">Features <span>new</span></a>
+                        <a href="#">Tutorials</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">Releases</a>
+                    </div>
+                    <div class="oceannft__line3"></div>
+                    <div class="link__block">
+                        <div class="line__title">
+                            <h3>Collectibles</h3>
+                            <img src="img/block-vector.png" alt="">
+                        </div>
+                        <a href="#">About</a>
+                        <a href="#">Press</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Partners</a>
+                    </div>
+                    <div class="oceannft__line3"></div>
+                    <div class="link__block">
+                        <div class="line__title">
+                            <h3>Support</h3>
+                            <img src="img/block-vector.png" alt="">
+                        </div>
+                        <a href="#">Help Center</a>
+                        <a href="#">Safety Center</a>
+                        <a href="#">Legal</a>
+                        <a href="#">Privacy policy</a>
+                        <a href="#">Status</a>
+                    </div>
+                    <div class="oceannft__line3"></div>
+                    <div class="link__block">
+                        <div class="line__title">
+                            <h3>Legal</h3>
+                            <img src="img/block-vector.png" alt="">
+                        </div>
+                        <a href="#">Cookies Policy</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Law Enforcement</a>
+                        <a href="#">Status</a>
+                    </div>
+                    <div class="oceannft__line3"></div>
+                    <div class="link__block">
+                        <div class="line__title">
+                            <h3>Follow us</h3>
+                            <img src="img/block-vector.png" alt="">
+                        </div>
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Dribbble</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="oceannft__line2"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <h4>© 2020 Landify UI Kit. All rights reserved</h4>
+                <div class="footer__link">
+                    <a href="#">Terms & Conditions</a>
+                    <img src="img/footer-img.png" alt="">
+                    <a href="#">Privacy Policy</a> 
+                    <img src="img/footer-img.png" alt="">
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
