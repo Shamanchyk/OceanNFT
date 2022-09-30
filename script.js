@@ -101,4 +101,36 @@ if(hamburger){
     })
 }
 
+const aLink = document.querySelector('.link__block');
+const aLink2 = document.querySelector('.link__block2');
+const aLink3 = document.querySelector('.link__block3');
+const aLink4 = document.querySelector('.link__block4');
+const aLink5 = document.querySelector('.link__block5');
+
+if(aLink){
+    aLink.addEventListener("click", function() {
+        aLink.classList.toggle('active');
+    })
+}
+if(aLink2){
+    aLink2.addEventListener("click", function() {
+        aLink2.classList.toggle('active');
+    })
+}
+if(aLink3){
+    aLink3.addEventListener("click", function() {
+        aLink3.classList.toggle('active');
+    })
+}
+if(aLink4){
+    aLink4.addEventListener("click", function() {
+        aLink4.classList.toggle('active');
+    })
+}
+if(aLink5){
+    aLink5.addEventListener("click", function() {
+        aLink5.classList.toggle('active');
+    })
+}
+
   
