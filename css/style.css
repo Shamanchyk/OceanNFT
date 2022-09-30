@@ -58,8 +58,6 @@ ul li {
 }
 body {
   background: rgb(32, 8, 59);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
 }
 
 .btn__border {
@@ -154,7 +152,7 @@ body.lock {
           align-items: end;
   width: 100%;
   height: 90px;
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 10;
@@ -329,8 +327,8 @@ body.lock {
   .navbar__links .menu__row {
     display: none;
     width: 100%;
-    height: 500px;
-    position: absolute;
+    height: 100%;
+    position: fixed;
     background: rgba(32, 8, 59, 0.95);
     top: -500px;
     right: 0;
@@ -438,11 +436,11 @@ body.lock {
 }
 
 .discover {
-  margin-top: 116px;
+  margin-top: 194px;
 }
 @media (max-width: 576px) {
   .discover {
-    margin-top: 56px;
+    margin-top: 106px;
   }
 }
 .discover__row {
@@ -818,7 +816,7 @@ body.lock {
 }
 @media (max-width: 576px) {
   .right__profile {
-    width: 87%;
+    width: 324px;
     margin-left: 0;
     -ms-flex-pack: distribute;
         justify-content: space-around;
@@ -1505,23 +1503,24 @@ body.lock {
 }
 @media (max-width: 768px) {
   .collection__link {
-    gap: 10px;
+    gap: 25px;
   }
 }
-.collection__link a {
+.collection__link button {
+  height: 98.39px;
   font-size: 26.531px;
   line-height: 26px;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
-  padding: 33px 30px;
   width: 390px;
   border: 2px solid;
   -o-border-image: linear-gradient(to left top, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
      border-image: -webkit-gradient(linear, right bottom, left top, color-stop(21.43%, #FF56F6), color-stop(50.63%, #B936EE), color-stop(100%, #3BACE2), color-stop(117.04%, #406AFF));
      border-image: linear-gradient(to left top, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
   border-image-slice: 1;
+  background-color: transparent;
 }
-.collection__link a:hover {
+.collection__link button:hover {
   background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
   -webkit-box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
           box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
@@ -1530,29 +1529,31 @@ body.lock {
   color: rgb(255, 255, 255);
 }
 @media (max-width: 1470px) {
-  .collection__link a {
+  .collection__link button {
     width: 310px;
   }
 }
 @media (max-width: 1200px) {
-  .collection__link a {
+  .collection__link button {
     min-width: 310px;
     width: 45%;
   }
 }
 @media (max-width: 768px) {
-  .collection__link a {
+  .collection__link button {
     min-width: 152.52px;
     width: 45%;
     padding: 13px;
     font-size: 20.9922px;
     line-height: 14px;
+    height: 60px;
   }
 }
 @media (max-width: 576px) {
-  .collection__link a {
+  .collection__link button {
     font-size: 10.9922px;
     line-height: 14px;
+    height: 40.76px;
   }
 }
 @media (max-width: 1200px) {
