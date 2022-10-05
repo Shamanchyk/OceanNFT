@@ -101,6 +101,30 @@ if(hamburger){
     })
 }
 
+function changeImage(fileName) {
+    let img = document.querySelector('#changeimage');
+    img.setAttribute("src", fileName);
+}
+
+var languageOptions = document.querySelectorAll('.button');
+
+languageOptions.forEach(function(element, index) {
+  element.addEventListener('click', switchLanguage);
+});
+
+function switchLanguage (event) {
+  var targetElement = event.target;
+
+  languageOptions.forEach(function(element, index) {
+    element.classList.remove('active__button');
+  });
+
+  targetElement.classList.add('active__button');
+}
+
+
+
+
 const aLink = document.querySelector('.link__block');
 const aLink2 = document.querySelector('.link__block2');
 const aLink3 = document.querySelector('.link__block3');
