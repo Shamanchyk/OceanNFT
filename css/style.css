@@ -1520,6 +1520,14 @@ body.lock {
   border-image-slice: 1;
   background-color: transparent;
 }
+.collection__link button.active__button {
+  background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+  -webkit-box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+          box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  -webkit-backdrop-filter: blur(106.124px);
+          backdrop-filter: blur(106.124px);
+  color: rgb(255, 255, 255);
+}
 .collection__link button:hover {
   background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
   -webkit-box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
@@ -1555,6 +1563,10 @@ body.lock {
     line-height: 14px;
     height: 40.76px;
   }
+}
+.collection__right img {
+  width: 435.55px;
+  height: 814.72px;
 }
 @media (max-width: 1200px) {
   .collection__right {
