@@ -68,7 +68,7 @@ body {
           backdrop-filter: blur(106.124px);
 }
 
-.block__title h3, .subscribe__right h2, .seller__title .a-active, .seller__title h3, .collection__title, .collection__btn a h4, .profile__efir2 p, .slider__border, .slider__title h3, .profile__efir p, .btn__create, .btn__link, .navbar__links .menu__link, .header__logo {
+.block__title h3, .subscribe__right h2, .seller__title .a-active, .seller__title h3, .collection__link button, .collection__title, .collection__btn a h4, .profile__efir2 p, .slider__border, .slider__title h3, .profile__efir p, .btn__create, .btn__link, .navbar__links .menu__link, .header__logo {
   font-family: "Orbitron";
   font-style: normal;
   font-weight: 700;
@@ -140,6 +140,110 @@ body {
   margin: 0 auto;
 }
 body.lock {
+  overflow: hidden;
+}
+
+.body__border {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: #FF56F6;
+  opacity: 0.4;
+  -webkit-filter: blur(92.3058px);
+          filter: blur(92.3058px);
+  position: absolute;
+  top: 500px;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.body__border2 {
+  width: 150px;
+  height: 200px;
+  border-radius: 50%;
+  background: #FF56F6;
+  opacity: 0.4;
+  -webkit-filter: blur(92.3058px);
+          filter: blur(92.3058px);
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.body__border3 {
+  width: 300px;
+  height: 200px;
+  border-radius: 50%;
+  background: #FF56F6;
+  opacity: 0.4;
+  -webkit-filter: blur(92.3058px);
+          filter: blur(92.3058px);
+  position: absolute;
+  top: 1000px;
+  left: 20%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.body__border4 {
+  width: 200px;
+  height: 300px;
+  border-radius: 50%;
+  background: #FF56F6;
+  opacity: 0.3;
+  -webkit-filter: blur(92.3058px);
+          filter: blur(92.3058px);
+  position: absolute;
+  top: 1100px;
+  left: 30%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.body__border5 {
+  width: 100px;
+  height: 400px;
+  border-radius: 50%;
+  background: #FF56F6;
+  opacity: 0.4;
+  -webkit-filter: blur(92.3058px);
+          filter: blur(92.3058px);
+  position: absolute;
+  top: 1500px;
+  left: 40%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.body__border6 {
+  width: 200px;
+  height: 400px;
+  border-radius: 50%;
+  background: #FF56F6;
+  opacity: 0.3;
+  -webkit-filter: blur(92.3058px);
+          filter: blur(92.3058px);
+  position: absolute;
+  top: 2300px;
+  left: 25%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.body__border7 {
+  width: 200px;
+  height: 300px;
+  border-radius: 50%;
+  background: #FF56F6;
+  opacity: 0.3;
+  -webkit-filter: blur(92.3058px);
+          filter: blur(92.3058px);
+  position: absolute;
+  top: 2000px;
+  left: 40%;
+  z-index: -1;
   overflow: hidden;
 }
 
@@ -245,7 +349,7 @@ body.lock {
 }
 @media (max-width: 576px) {
   .container {
-    width: 360px;
+    width: 325px;
   }
 }
 
@@ -491,7 +595,7 @@ body.lock {
 @media (max-width: 576px) {
   .discover__left h1 {
     text-align: start;
-    font-size: 51px;
+    font-size: 49px;
     line-height: 137.4%;
   }
 }
@@ -527,6 +631,7 @@ body.lock {
     margin-top: 40px;
     font-size: 14px;
     line-height: 23px;
+    text-align: left;
   }
 }
 .discover__btn {
@@ -544,6 +649,13 @@ body.lock {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  .discover__btn {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
   }
 }
 .discover__arrow {
@@ -996,6 +1108,16 @@ body.lock {
   width: 1393.98px;
   margin-top: 105px;
 }
+@media (max-width: 576px) {
+  .discover__bottom #img-ether {
+    width: 116px;
+  }
+}
+@media (max-width: 576px) {
+  .discover__bottom #img-bitmex {
+    width: 112px;
+  }
+}
 @media (max-width: 1470px) {
   .discover__bottom {
     width: 1180px;
@@ -1094,11 +1216,12 @@ body.lock {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  border: 2px solid;
+  -o-border-image: linear-gradient(92.23deg, #646164 21.43%, #797879 50.63%, #262828 100%, #3d3d40 117.04%);
+     border-image: linear-gradient(92.23deg, #646164 21.43%, #797879 50.63%, #262828 100%, #3d3d40 117.04%);
+  border-image-slice: 1;
   background: -webkit-gradient(linear, left top, right top, color-stop(-1.52%, rgba(255, 255, 255, 0.1)), color-stop(104.35%, rgba(255, 255, 255, 0.024)));
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
-  -webkit-backdrop-filter: blur(39.6002px);
-          backdrop-filter: blur(39.6002px);
-  border: 2px solid rgba(255, 255, 255, 0.5);
 }
 .slider__border {
   display: none;
@@ -1549,7 +1672,7 @@ body.lock {
 }
 @media (max-width: 768px) {
   .collection__link button {
-    min-width: 152.52px;
+    min-width: 145.52px;
     width: 45%;
     padding: 13px;
     font-size: 20.9922px;
@@ -1628,6 +1751,7 @@ body.lock {
   line-height: 25px;
   color: #FFFFFF;
   margin-top: 16px;
+  opacity: 1;
 }
 @media (max-width: 576px) {
   .slide__bottom h4 {
@@ -1638,11 +1762,14 @@ body.lock {
 .slide__bottom button {
   width: 234.84px;
   height: 50.85px;
+  border: 2px solid;
   background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
   -webkit-box-shadow: 0px 4.81747px 116.824px rgba(255, 86, 246, 0.51);
           box-shadow: 0px 4.81747px 116.824px rgba(255, 86, 246, 0.51);
-  -webkit-backdrop-filter: blur(115.619px);
-          backdrop-filter: blur(115.619px);
+  -o-border-image: linear-gradient(to left top, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+     border-image: -webkit-gradient(linear, right bottom, left top, color-stop(21.43%, #FF56F6), color-stop(50.63%, #B936EE), color-stop(100%, #3BACE2), color-stop(117.04%, #406AFF));
+     border-image: linear-gradient(to left top, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+  border-image-slice: 1;
   margin: 41px 0;
   font-size: 19.8983px;
   line-height: 25px;
@@ -1667,7 +1794,7 @@ body.lock {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 2px;
+  gap: 5px;
 }
 .slide__nick span {
   font-size: 20.1601px;
@@ -1883,6 +2010,7 @@ body.lock {
     width: 316.8px;
     height: 89.75px;
     padding: 0 20px;
+    gap: 10px;
   }
 }
 @media (max-width: 576px) {
@@ -2173,6 +2301,8 @@ body.lock {
     width: 326px;
     height: 380px;
     margin: 0 auto;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 .subscribe__right {
@@ -2286,7 +2416,7 @@ body.lock {
 @media (max-width: 576px) {
   .subscribe__right .mail button {
     width: 94.86px;
-    height: 32.11px;
+    height: 35px;
     font-size: 10.2162px;
     line-height: 15px;
   }
